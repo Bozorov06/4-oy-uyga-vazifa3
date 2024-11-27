@@ -64,7 +64,7 @@
 
 // 9- masala
 // let son = +prompt("son")
-// console.log(son>9)
+// console.log(son>9 && son<100)
 
 // 10- masala
 // let son = +prompt("son")
@@ -85,15 +85,31 @@
 // let son2 = +prompt("2-son");
 
 //     console.log((son1 == 0 || son2 == 0) || (son1 < 0 && son2 < 0));
-// 14- masala
+// 14-masala
 // let son1 = +prompt("1-son")
 // let son2 = +prompt("2-son");
-// let son3 = +prompt("3-son");
-// console.log(so)
+
+// let = max;
+
+// if(son1>son2){
+//     max=num1;
+// }else{
+//     max=num2;
+// }
+// if (max > son3) {
+//   max = num3;
+// }
+
+// if (max>0){
+//     console.log(true)
+// }else{
+//     console.log(false);
+// }
 
 // 15- masala
 // let son = +prompt("son")
-// console.log(10<son>20)
+// console.log(!(son>=10 && son<=20))
+
 
 // 16- masala
 // let son1 = +prompt("1-son")
@@ -116,7 +132,9 @@
 // let son1 = +prompt("1-son")
 // let son2 = +prompt("2-son");
 // if (son1>0 && son2<0){
-//     console.log(son1,son2)
+//     console.log(true)
+//  }else{
+// console.log(false)
 // }
 
 // 20- masala
@@ -124,7 +142,7 @@
 // let son2 = +prompt("2-son");
 // let son3 = +prompt("3-son");
 // if (son1%2==0 || son2%2==0 || son3%2==0){
-//     console.log(son1,son2,son3)
+//     console.log(true)
 // }
 
 // 21- masala
@@ -134,10 +152,10 @@
 // 22-masala
 // let son1 = +prompt("1-son")
 // let son2 = +prompt("2-son")
-// if (son1%son2==0){
-//     console.log(son1,son2)
+// if (son1%son2==0 || son2%son1==0){
+//     console.log(true)
 // } else{
-//     console.log("xato")
+//     console.log(false)
 // }
 
 // 23-masala
@@ -260,6 +278,7 @@
 // if (son1>0 && son2<0 && (son1*son2)>0){
 //     console.log(true)
 // }
+//    BOOLEN
 
 // 1-misol
 
@@ -288,3 +307,72 @@
 // let son2 = +prompt("2-son");
 // console.log(son1%2==1 || son2%2==1)
 
+// 5-misol
+// let son1 = +prompt("1-son");
+// let son2 = +prompt("2-son");
+// if ((son1%2==0 && son1%!=0) || (son2%2==0 && son2%!=0)){
+//     console.log(true);
+// }else{
+//     console.log(false);
+// }
+
+// 6-misol
+// let son1 = +prompt("1-son");
+// let son2 = +prompt("2-son");
+// if ((son1%2==0 && son2%2==0)||(son1%2==1 && son2%2==1)){
+//     console.log(true)
+// }else{
+//     console.log(false);   
+// }
+
+// 7-misol
+// let son1 = +prompt("1-son");
+// let son2 = +prompt("2-son");
+// let son3 = +prompt("3-son");
+// if(son1>0 && son2>0 && son3>0){
+//     console.log(true);   
+// }else{
+//     console.log(false);
+// }
+
+// 8-misol
+// let son1 = +prompt("1-son");
+// let son2 = +prompt("2-son");
+// let son3 = +prompt("1-son");
+// if (son1>0 || son2>0 || son3>0){
+//     console.log(true)
+// }else{
+//     console.log(false);
+// }
+
+
+// 9-misol
+
+// let son1 = +prompt("1-son")
+// let son2 = +prompt("2-son");
+// let son3 = +prompt("3-son");
+
+// if ((son1>0 && son2<0 && son3<0) || (son1<0 && son2>0 && son3<0) || (son1>0 && son2<0 && son3>0)){
+//     console.log(true)
+// }else{
+//     console.log(false);
+// }
+
+// 10-misol
+// let son1 = +prompt("1-son");
+// let son2 = +prompt("2-son");
+// let son3 = +prompt("3-son");
+// if ((son1>0 && son2>0 && son3>0)||(son1<0 && son2>0 && son3>0) || (son1>0 && son2<0 && son3>0)){
+//     console.log(true);
+// }else{
+//     console.log(false);
+// }
+
+// 11-misol
+
+// let son = +prompt("son");
+// if(son > 9 && son < 100 && son%2==0){
+//     console.log(true);
+// }else{
+//     console.log(false);
+// }
